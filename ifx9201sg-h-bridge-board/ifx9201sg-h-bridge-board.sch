@@ -6,7 +6,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "IFX9201SG H-Bridge Board"
-Date "2019-04-14"
+Date "2019-04-29"
 Rev "--"
 Comp "Technologie du génie physique - Cégep La Pocatière"
 Comment1 ""
@@ -24,6 +24,8 @@ F 2 "footprints:PG-DSO-12-17" H 6150 3900 60  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-IFX9201SG-DS-v01_01-EN.pdf?fileId=5546d4624cb7f111014d2e8916795dea" H 6000 1691 60  0001 C CNN
 F 4 "IFX9201SG" H 5900 3790 60  0001 C CNN "MFP"
 F 5 "Infineon" H 5800 3690 60  0001 C CNN "MFN"
+F 6 "IC HALF-BRIDGE DRVR 2 CH 12DSO" H 0   0   50  0001 C CNN "Description"
+F 7 "IFX9201SG" H 0   0   50  0001 C CNN "MPN"
 	1    6000 2700
 	1    0    0    -1  
 $EndComp
@@ -35,6 +37,9 @@ F 0 "J1" H 1168 3117 50  0000 C CNN
 F 1 "Conn_01x06" H 1168 3026 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 1250 2700 50  0001 C CNN
 F 3 "~" H 1250 2700 50  0001 C CNN
+F 4 "CONN HEADER R/A 6POS 2.54MM" H 0   0   50  0001 C CNN "Description"
+F 5 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "MFN"
+F 6 "	PRPC006SBAN-M71RC" H 0   0   50  0001 C CNN "MPN"
 	1    1250 2700
 	-1   0    0    -1  
 $EndComp
@@ -46,6 +51,9 @@ F 0 "J3" H 9530 2192 50  0000 L CNN
 F 1 "S6B-PH-K-S(LF)(SN)" H 9530 2101 50  0000 L CNN
 F 2 "Connectors_JST:JST_PH_B6B-PH-K_06x2.00mm_Straight" H 9450 2200 50  0001 C CNN
 F 3 "~" H 9450 2200 50  0001 C CNN
+F 4 "CONN HEADER R/A 6POS 2MM" H 0   0   50  0001 C CNN "Description"
+F 5 "	JST Sales America Inc." H 0   0   50  0001 C CNN "MFN"
+F 6 "S6B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    9450 2200
 	1    0    0    -1  
 $EndComp
@@ -66,6 +74,7 @@ F 9 "/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614" H 2850 1900 
 F 10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" H 2850 2000 60  0001 L CNN "Description"
 F 11 "Phoenix Contact" H 2850 2100 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2850 2200 60  0001 L CNN "Status"
+F 13 "Phoenix Contact" H 0   0   50  0001 C CNN "MFN"
 	1    2650 1000
 	0    1    1    0   
 $EndComp
@@ -77,6 +86,9 @@ F 0 "U1" H 4500 4283 50  0000 C CNN
 F 1 "74LVC2G17" H 4500 4374 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 4500 4600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G17.pdf" H 4550 4400 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V SC70-6" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "MFN"
+F 6 "74LVC2G17" H 0   0   50  0001 C CNN "MPN"
 	1    4500 4600
 	-1   0    0    1   
 $EndComp
@@ -88,6 +100,9 @@ F 0 "U1" H 4500 4783 50  0000 C CNN
 F 1 "74LVC2G17" H 4500 4874 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 4500 5100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G17.pdf" H 4550 4900 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V SC70-6" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "MFN"
+F 6 "74LVC2G17" H 0   0   50  0001 C CNN "MPN"
 	2    4500 5100
 	-1   0    0    1   
 $EndComp
@@ -99,6 +114,9 @@ F 0 "U1" H 3420 6096 50  0000 R CNN
 F 1 "74LVC2G17" H 3420 6005 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 3600 6050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G17.pdf" H 3650 5850 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V SC70-6" H 0   0   50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "MFN"
+F 6 "74LVC2G17" H 0   0   50  0001 C CNN "MPN"
 	3    3600 6050
 	-1   0    0    -1  
 $EndComp
@@ -119,6 +137,7 @@ F 9 "/product-detail/en/on-semiconductor/BSS84/BSS84CT-ND/244297" H 3550 1900 60
 F 10 "MOSFET P-CH 50V 130MA SOT-23" H 3550 2000 60  0001 L CNN "Description"
 F 11 "ON Semiconductor" H 3550 2100 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3550 2200 60  0001 L CNN "Status"
+F 13 "	Alpha & Omega Semiconductor Inc." H 0   0   50  0001 C CNN "MFN"
 	1    3350 1000
 	0    -1   -1   0   
 $EndComp
@@ -130,6 +149,9 @@ F 0 "R5" H 3920 1596 50  0000 L CNN
 F 1 "10k" H 3920 1505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 1550 50  0001 C CNN
 F 3 "~" H 3850 1550 50  0001 C CNN
+F 4 "RES 10K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT10K0" H 0   0   50  0001 C CNN "MPN"
 	1    3850 1550
 	1    0    0    -1  
 $EndComp
@@ -152,6 +174,9 @@ F 0 "C3" H 5515 1396 50  0000 L CNN
 F 1 "0.1u" H 5515 1305 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5438 1200 50  0001 C CNN
 F 3 "~" H 5400 1350 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFN"
+F 6 "CL21B104KBCNFNC" H 0   0   50  0001 C CNN "MPN"
 	1    5400 1350
 	1    0    0    -1  
 $EndComp
@@ -163,6 +188,9 @@ F 0 "C2" H 5065 1396 50  0000 L CNN
 F 1 "100u" H 5065 1305 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_8x10" H 4950 1350 50  0001 C CNN
 F 3 "~" H 4950 1350 50  0001 C CNN
+F 4 "CAP ALUM 100UF 20% 50V SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "Nichicon" H 0   0   50  0001 C CNN "MFN"
+F 6 "UWT1H101MNL1GS" H 0   0   50  0001 C CNN "MPN"
 	1    4950 1350
 	1    0    0    -1  
 $EndComp
@@ -268,6 +296,9 @@ F 0 "D5" V 7089 3182 50  0000 R CNN
 F 1 "150080RS75000" V 6998 3182 50  0000 R CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 7050 3300 50  0001 C CNN
 F 3 "~" H 7050 3300 50  0001 C CNN
+F 4 "LED RED CLEAR 0805 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "	Wurth Electronics Inc." H 0   0   50  0001 C CNN "MFN"
+F 6 "150080RS75000" H 0   0   50  0001 C CNN "MPN"
 	1    7050 3300
 	0    -1   -1   0   
 $EndComp
@@ -276,9 +307,12 @@ L Device:R R10
 U 1 1 5CB74D5F
 P 7050 3650
 F 0 "R10" H 7120 3696 50  0000 L CNN
-F 1 "1.6k" H 7120 3605 50  0000 L CNN
+F 1 "150" H 7120 3605 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 3650 50  0001 C CNN
 F 3 "~" H 7050 3650 50  0001 C CNN
+F 4 "RES 150 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT150R" H 0   0   50  0001 C CNN "MPN"
 	1    7050 3650
 	1    0    0    -1  
 $EndComp
@@ -320,6 +354,9 @@ F 0 "R1" H 3070 2946 50  0000 L CNN
 F 1 "10k" H 3070 2855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2930 2900 50  0001 C CNN
 F 3 "~" H 3000 2900 50  0001 C CNN
+F 4 "RES 10K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT10K0" H 0   0   50  0001 C CNN "MPN"
 	1    3000 2900
 	1    0    0    -1  
 $EndComp
@@ -331,6 +368,9 @@ F 0 "R2" H 3470 2946 50  0000 L CNN
 F 1 "10k" H 3470 2855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3330 2900 50  0001 C CNN
 F 3 "~" H 3400 2900 50  0001 C CNN
+F 4 "RES 10K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT10K0" H 0   0   50  0001 C CNN "MPN"
 	1    3400 2900
 	1    0    0    -1  
 $EndComp
@@ -380,6 +420,9 @@ F 0 "R8" H 5020 5446 50  0000 L CNN
 F 1 "10k" H 5020 5355 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4880 5400 50  0001 C CNN
 F 3 "~" H 4950 5400 50  0001 C CNN
+F 4 "RES 10K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT10K0" H 0   0   50  0001 C CNN "MPN"
 	1    4950 5400
 	1    0    0    -1  
 $EndComp
@@ -391,6 +434,9 @@ F 0 "R9" H 5320 5446 50  0000 L CNN
 F 1 "10k" H 5320 5355 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5180 5400 50  0001 C CNN
 F 3 "~" H 5250 5400 50  0001 C CNN
+F 4 "RES 10K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT10K0" H 0   0   50  0001 C CNN "MPN"
 	1    5250 5400
 	1    0    0    -1  
 $EndComp
@@ -524,6 +570,9 @@ F 0 "C1" H 3165 6096 50  0000 L CNN
 F 1 "0.1u" H 3165 6005 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3088 5900 50  0001 C CNN
 F 3 "~" H 3050 6050 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFN"
+F 6 "CL21B104KBCNFNC" H 0   0   50  0001 C CNN "MPN"
 	1    3050 6050
 	1    0    0    -1  
 $EndComp
@@ -549,6 +598,9 @@ F 0 "C4" H 6915 1896 50  0000 L CNN
 F 1 "0.1u" H 6915 1805 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6838 1700 50  0001 C CNN
 F 3 "~" H 6800 1850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFN"
+F 6 "CL21B104KBCNFNC" H 0   0   50  0001 C CNN "MPN"
 	1    6800 1850
 	1    0    0    -1  
 $EndComp
@@ -580,6 +632,9 @@ F 0 "R3" V 3343 4600 50  0000 C CNN
 F 1 "100" V 3434 4600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3480 4600 50  0001 C CNN
 F 3 "~" H 3550 4600 50  0001 C CNN
+F 4 "RES 100 OHM 1% 1/4W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RNCP0805FTD100R" H 0   0   50  0001 C CNN "MPN"
 	1    3550 4600
 	0    1    1    0   
 $EndComp
@@ -593,6 +648,9 @@ F 0 "R4" V 3343 5100 50  0000 C CNN
 F 1 "100" V 3434 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3480 5100 50  0001 C CNN
 F 3 "~" H 3550 5100 50  0001 C CNN
+F 4 "RES 100 OHM 1% 1/4W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RNCP0805FTD100R" H 0   0   50  0001 C CNN "MPN"
 	1    3550 5100
 	0    1    1    0   
 $EndComp
@@ -612,6 +670,10 @@ F 0 "C5" H 7915 2846 50  0000 L CNN
 F 1 "10n" H 7915 2755 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7800 2800 50  0001 C CNN
 F 3 "~" H 7800 2800 50  0001 C CNN
+F 4 "CAP CER 10000PF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFP"
+F 7 "CL21B103KBANNNC" H 0   0   50  0001 C CNN "MPN"
 	1    7800 2800
 	1    0    0    -1  
 $EndComp
@@ -623,6 +685,10 @@ F 0 "C6" H 8315 2846 50  0000 L CNN
 F 1 "10n" H 8315 2755 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8200 2800 50  0001 C CNN
 F 3 "~" H 8200 2800 50  0001 C CNN
+F 4 "CAP CER 10000PF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFP"
+F 7 "CL21B103KBANNNC" H 0   0   50  0001 C CNN "MPN"
 	1    8200 2800
 	1    0    0    -1  
 $EndComp
@@ -664,6 +730,9 @@ F 0 "D1" V 3804 1229 50  0000 L CNN
 F 1 "BZT52B10" V 3895 1229 50  0000 L CNN
 F 2 "kicad-libraries:SOD-123F" H 3850 975 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 3850 1150 50  0001 C CNN
+F 4 "Zener Diodes 10 V 500 mW SOD-123 5% Zener" H 0   0   50  0001 C CNN "Description"
+F 5 "Rectron" H 0   0   50  0001 C CNN "MFN"
+F 6 "BZT52B10" H 0   0   50  0001 C CNN "MPN"
 	1    3850 1150
 	0    1    1    0   
 $EndComp
@@ -680,6 +749,9 @@ F 0 "D3" V 4304 1429 50  0000 L CNN
 F 1 "BZT52B43" V 4395 1429 50  0000 L CNN
 F 2 "kicad-libraries:SOD-123F" H 4350 1175 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 4350 1350 50  0001 C CNN
+F 4 "Zener Diodes 43 V 500 mW SOD-123 5% Zener" H 0   0   50  0001 C CNN "Description"
+F 5 "Rectron" H 0   0   50  0001 C CNN "MFN"
+F 6 "BZT52B43" H 0   0   50  0001 C CNN "MPN"
 	1    4350 1350
 	0    1    1    0   
 $EndComp
@@ -691,6 +763,9 @@ F 0 "D2" V 4096 3588 50  0000 L CNN
 F 1 "BAT54S" V 4005 3588 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4125 3625 50  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3930 3500 50  0001 C CNN
+F 4 "Small Signal Schottky Diodes Dual" H 0   0   50  0001 C CNN "Description"
+F 5 "Vishay" H 0   0   50  0001 C CNN "MFN"
+F 6 "BAT54S" H 0   0   50  0001 C CNN "MPN"
 	1    4050 3500
 	0    -1   -1   0   
 $EndComp
@@ -702,6 +777,9 @@ F 0 "D4" V 4746 3588 50  0000 L CNN
 F 1 "BAT54S" V 4655 3588 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4775 3625 50  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4580 3500 50  0001 C CNN
+F 4 "Small Signal Schottky Diodes Dual" H 0   0   50  0001 C CNN "Description"
+F 5 "Vishay" H 0   0   50  0001 C CNN "MFN"
+F 6 "BAT54S" H 0   0   50  0001 C CNN "MPN"
 	1    4700 3500
 	0    -1   -1   0   
 $EndComp
@@ -773,6 +851,9 @@ F 0 "R6" H 3870 2546 50  0000 L CNN
 F 1 "1k" H 3870 2455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 2500 50  0001 C CNN
 F 3 "~" H 3800 2500 50  0001 C CNN
+F 4 "RES 1K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT1K00" H 0   0   50  0001 C CNN "MPN"
 	1    3800 2500
 	0    -1   -1   0   
 $EndComp
@@ -784,6 +865,9 @@ F 0 "R7" H 3870 2646 50  0000 L CNN
 F 1 "1k" H 3870 2555 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 2600 50  0001 C CNN
 F 3 "~" H 3800 2600 50  0001 C CNN
+F 4 "RES 1K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFN"
+F 6 "RMCF0805FT1K00" H 0   0   50  0001 C CNN "MPN"
 	1    3800 2600
 	0    1    1    0   
 $EndComp
@@ -815,6 +899,9 @@ F 0 "D6" V 2004 3429 50  0000 L CNN
 F 1 "PDZVTFTR5.1B" V 2095 3429 50  0000 L CNN
 F 2 "kicad-libraries:SOD-128" H 2050 3350 50  0001 C CNN
 F 3 "~" H 2050 3350 50  0001 C CNN
+F 4 "Zener Diode" H 0   0   50  0001 C CNN "Description"
+F 5 "Rohm Semiconductor" H 0   0   50  0001 C CNN "MFN"
+F 6 "PDZVTFTR5.1B" H 0   0   50  0001 C CNN "MPN"
 	1    2050 3350
 	0    1    1    0   
 $EndComp
@@ -853,8 +940,6 @@ Wire Wire Line
 Connection ~ 2050 3100
 Wire Wire Line
 	2050 3100 2050 3200
-Text Notes 4550 900  0    50   ~ 0
-C2 - UWT1H101MNL1GS
 $Bitmap
 Pos 3000 7400
 Scale 1.000000
